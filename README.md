@@ -286,7 +286,7 @@ The headings aren't too helpful. We'd like to ignore them.
 
 The heading line isn't helping us much, is it?
 
-We can filter that out by using the if statement. We can create a condition expression and provide some processing to be used only when that condition is true.
+We can filter that out by using the **if** statement. We can create a condition expression and provide some processing to be used only when that condition is true.
 
 A condition can be computed using any of the available comparison operators. We'll show an example using "==", but there are all of the usual culprits: >, <, <=, >= and !=.  (Your keyboard has characters like ≤, ≥, and ≠; Python doesn't use these right now.)
 
@@ -400,7 +400,7 @@ with open("keynote.csv") as input_file:
     ../Python Testing Habits/TestingHabits.key       15,240,614 2016-06-29T20:43:24
 
 
-What's changed? We've computed a new variable, `size`, using the expression `int(the_row[1])`. The `int()` function will convert it's argument value to an integer. No matter what the argument is: floating-point value, complex number, fraction, string. Almost anything.
+What's changed? We've computed a new variable, `size`, using the expression `int(the_row[1])`. The `int()` function will convert its argument value to an integer. No matter what the argument is: floating-point value, complex number, fraction, string. Almost anything.
 
 We changed the format specification to `{:9,d}`. This has a size, `9`. It has a `,` to insert commas into big numbers. And it has a data type of `d` for decimal. Finally, we have changed the argument list to be `the_row[0], size, the_row[2], the_row[3]`.  We've used the integer `size` variable instead of the old string value of the `the_row[1]` expression.
 
