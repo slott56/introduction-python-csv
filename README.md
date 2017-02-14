@@ -1,44 +1,11 @@
 
+Reading (and processing and writing) CSV files.
 
-```python
-355/113
-```
+For a lot of us, automated data processing is often done by transforming and summarizing data that either starts in a spreadsheet or is going to wind up in a spreadsheet.
 
+This notebook is a tutorial on CSV file processing in Python. It doesn't cover the details of installing Python or Jupyter notebooks. You'll have to find that separately. Look at [Intro to Python CSV Processing for Actual Beginners](http://slott-softwarearchitect.blogspot.com/2017/02/intro-to-python-csv-processing-for.html) for details.
 
-
-
-    3.1415929203539825
-
-
-
-First. The notebook was originally called "**untitled**" which seemed less than ideal. So I clicked on the name and changed it to "**csv_westling**". 
-
-Second. There was a box labeled **In [ ]:**. I entered some Python code to the right of this label. Then I clicked the run cell icon. (It's similar to this emoji --  ⏯ -- but not exactly.)
-
-The **In [ ]:** changed to **In [1]:**. A second box appeared labeled **Out [1]:**. This annotates our dialog with Python: each input and Python's response is tracked. It's pretty nice. We can change our input and rerun the cell. We can add new cells with different things to run. We can run all of the cells. Lots of things are possible based on this idea of a cell with our command. When we run a cell, Python processes the command and we see the output.
-
-For many expressions, a value is displayed.  For some expressions, however, nothing is displayed. For complete statements, nothing is displayed. This means we'll often have to throw the name of a variable in to see the value of that variable.
-
-
-```python
-pi = 355/113
-```
-
-See? No output. The variable was created by an assignment statement, and nothing else was shown. 
-
-
-```python
-pi
-```
-
-
-
-
-    3.1415929203539825
-
-
-
-That's how we examine the state of our process: we display the values of variables.
+Ideally, you've got your own Jupyter Notebook page running. You can follow along here, and create a notebook that reads and writes CSV files.
 
 What we want to do is read a CSV file, do transformations on the data, and write new CSV output. In order to do that, we'll need a file.
 
