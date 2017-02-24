@@ -15,7 +15,7 @@ Here's a few lines of data you can copy and paste into a text file.
 
 1. Click on the browser tab for the **home** directory for your notebooks.
 1. Create a new Text file. 
-1. Copy the data in the next cell, paste it into your next text file.
+1. Copy the data in the next cell, paste it into your new text file.
 1. Click on the name (usually **untitled.txt**) to change this to **"keynote.csv"**.
 
 With this file, you can follow along nicely. The sample data I started with was even larger, but this seems like enough data to get started with.
